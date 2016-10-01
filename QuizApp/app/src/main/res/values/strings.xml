@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Quiz App</string>
+    <string name="str_app_heading">2014 World Cup quiz</string>
+    <string name="str_question_one">1. Which player has scored the most World Cup goals?</string>
+    <string name="str_qst_one_opt1">Just Justo Fontaine (France)</string>
+    <string name="str_qst_one_opt2">Diego Maradona (Argentina)</string>
+    <string name="str_qst_one_opt3">Miroslav Klose (Germany)</string>
+    <string name="str_qst_one_opt4">Ronaldo Luís Nazário de Lima (Brazil)</string>
+    <string name="str_question_two">2. True or false? Women were once banned from playing soccer in Brazil.</string>
+    <string name="str_qst_two_opt1">True</string>
+    <string name="str_qst_two_opt2">False</string>
+    <string name="str_submit">Submit</string>
 </resources>
