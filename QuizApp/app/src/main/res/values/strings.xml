@@ -25,4 +25,10 @@
     <string name="str_qst_five_opt2">Britain</string>
     <string name="str_qst_five_opt3">Uruguay</string>
     <string name="str_qst_five_opt4">Italy</string>
+    <string name="str_question_six">6. Which of the following is a popular World Cup Brazil hashtag used on social media?</string>
+    <string name="str_qst_six_opt1">#CopadasCopas (The Cup of all Cups)</string>
+    <string name="str_qst_six_opt2">#ImaginaNaCopa (Just imagine during the World Cup)</string>
+    <string name="str_qst_six_opt3">#CopaPraQuem (The World Cup for whom)</string>
+    <string name="str_qst_six_opt4">#RumoAoHexa (Road to the sixth)</string>
+    <string name="str_qst_six_opt5">All of the above</string>
 </resources>
