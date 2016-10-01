@@ -10,4 +10,19 @@
     <string name="str_qst_two_opt1">True</string>
     <string name="str_qst_two_opt2">False</string>
     <string name="str_submit">Submit</string>
+    <string name="str_question_three">3. Which country has won the most World Cups?</string>
+    <string name="str_qst_three_opt1">Italy</string>
+    <string name="str_qst_three_opt2">Brazil</string>
+    <string name="str_qst_three_opt3">Germany</string>
+    <string name="str_qst_three_opt4">Argentina</string>
+    <string name="str_question_four">4. What is the World Cup most valuable player award called?</string>
+    <string name="str_qst_four_opt1">The Pelé Prize</string>
+    <string name="str_qst_four_opt2">The Beckenbauer Bust</string>
+    <string name="str_qst_four_opt3">The Golden Boot</string>
+    <string name="str_qst_four_opt4">The Golden Ball</string>
+    <string name="str_question_five">5. Which country hosted the first World Cup tournament?</string>
+    <string name="str_qst_five_opt1">United States</string>
+    <string name="str_qst_five_opt2">Britain</string>
+    <string name="str_qst_five_opt3">Uruguay</string>
+    <string name="str_qst_five_opt4">Italy</string>
 </resources>
