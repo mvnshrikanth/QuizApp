@@ -266,6 +266,20 @@
             android:padding="8dp"
             android:text="@string/str_qst_six_opt5" />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="@string/str_question_seven"
+            android:textStyle="bold" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autocomplete_country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/str_hint"
+            android:inputType="text" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

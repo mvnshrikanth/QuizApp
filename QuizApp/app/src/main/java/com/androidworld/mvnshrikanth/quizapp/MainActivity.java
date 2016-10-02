@@ -3,6 +3,8 @@ package com.androidworld.mvnshrikanth.quizapp;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.AutoCompleteTextView;
 import android.widget.CheckBox;
 import android.widget.RadioButton;
 import android.widget.Toast;
@@ -13,6 +15,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        AutoCompleteTextView autoCompleteTextView = (AutoCompleteTextView) findViewById(R.id.autocomplete_country);
+        String[] countryStrings = getResources().getStringArray(R.array.countries_array);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, countryStrings);
+        autoCompleteTextView.setAdapter(adapter);
     }
 
     public void clickSubmit(View view) {
@@ -31,6 +38,8 @@ public class MainActivity extends AppCompatActivity {
         CheckBox checkBoxAns6Opt3 = (CheckBox) findViewById(R.id.chk_qst6_opt3);
         CheckBox checkBoxAns6Opt4 = (CheckBox) findViewById(R.id.chk_qst6_opt4);
         CheckBox checkBoxAns6Opt5 = (CheckBox) findViewById(R.id.chk_qst6_opt5);
+
+        AutoCompleteTextView autoCompleteTextView = (AutoCompleteTextView) findViewById(R.id.autocomplete_country);
 
         if (radioButtonAns1.isChecked()) {
             score++;
@@ -64,6 +73,10 @@ public class MainActivity extends AppCompatActivity {
             checkBoxAns6Opt5.setChecked(true);
         }
 
+        if (autoCompleteTextView.getText().equals("Brazil") || autoCompleteTextView.getText().equals("Brasil")) {
+            score++;
+        }
+
         radioButtonAns1.setTextColor(getResources().getColor(R.color.colorAns));
         radioButtonAns2.setTextColor(getResources().getColor(R.color.colorAns));
         radioButtonAns3.setTextColor(getResources().getColor(R.color.colorAns));
@@ -75,6 +88,8 @@ public class MainActivity extends AppCompatActivity {
         checkBoxAns6Opt3.setTextColor(getResources().getColor(R.color.colorAns));
         checkBoxAns6Opt4.setTextColor(getResources().getColor(R.color.colorAns));
         checkBoxAns6Opt5.setTextColor(getResources().getColor(R.color.colorAns));
+
+        autoCompleteTextView.setText("Brasil");
 
         Toast.makeText(getApplicationContext(), "You scored " + score + "\nRight answers are highlighted in green.", Toast.LENGTH_SHORT).show();
     }

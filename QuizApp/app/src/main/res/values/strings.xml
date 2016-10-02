@@ -31,4 +31,16 @@
     <string name="str_qst_six_opt3">#CopaPraQuem (The World Cup for whom)</string>
     <string name="str_qst_six_opt4">#RumoAoHexa (Road to the sixth)</string>
     <string name="str_qst_six_opt5">All of the above</string>
+    <string name="str_question_seven">7. Which country hosted the 2014 FIFA world cup final tournament?</string>
+    <string name="str_hint">Answer here ...</string>
+    <string-array name="countries_array">
+        <item>England</item>
+        <item>Brasil</item>
+        <item>Germany</item>
+        <item>America</item>
+        <item>Spain</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Portugal</item>
+    </string-array>
 </resources>
