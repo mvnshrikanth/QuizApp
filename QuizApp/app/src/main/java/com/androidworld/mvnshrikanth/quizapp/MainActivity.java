@@ -11,6 +11,8 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+    final String TAG = this.getClass().getSimpleName();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -72,8 +74,9 @@ public class MainActivity extends AppCompatActivity {
             checkBoxAns6Opt4.setChecked(true);
             checkBoxAns6Opt5.setChecked(true);
         }
+        //Log.v(TAG, autoCompleteTextView.getText().toString());
 
-        if (autoCompleteTextView.getText().equals("Brazil") || autoCompleteTextView.getText().equals("Brasil")) {
+        if (autoCompleteTextView.getText().toString().equals("Brazil") || autoCompleteTextView.getText().toString().equals("Brasil")) {
             score++;
         }
 
