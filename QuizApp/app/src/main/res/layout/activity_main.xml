@@ -36,14 +36,13 @@
         <RadioGroup
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
             android:orientation="vertical">
 
             <RadioButton
                 android:id="@+id/radio_qst1_opt1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="onRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/str_qst_one_opt1" />
 
@@ -51,7 +50,6 @@
                 android:id="@+id/radio_qst1_opt2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="onRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/str_qst_one_opt2" />
 
@@ -59,8 +57,6 @@
                 android:id="@+id/radio_qst1_opt3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:checked="true"
-                android:onClick="onRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/str_qst_one_opt3" />
 
@@ -68,7 +64,6 @@
                 android:id="@+id/radio_qst1_opt4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="onRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/str_qst_one_opt4" />
         </RadioGroup>
@@ -83,15 +78,13 @@
         <RadioGroup
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
             android:orientation="vertical">
 
             <RadioButton
                 android:id="@+id/radio_qst2_opt1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:checked="true"
-                android:onClick="onRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/str_qst_two_opt1" />
 
@@ -99,7 +92,6 @@
                 android:id="@+id/radio_qst2_opt2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="onRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/str_qst_two_opt2" />
 
@@ -115,14 +107,13 @@
         <RadioGroup
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
             android:orientation="vertical">
 
             <RadioButton
                 android:id="@+id/radio_qst3_opt1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="onRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/str_qst_three_opt1" />
 
@@ -130,8 +121,6 @@
                 android:id="@+id/radio_qst3_opt2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:checked="true"
-                android:onClick="onRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/str_qst_three_opt2" />
 
@@ -139,7 +128,6 @@
                 android:id="@+id/radio_qst3_opt3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="onRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/str_qst_three_opt3" />
 
@@ -147,7 +135,6 @@
                 android:id="@+id/radio_qst3_opt4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="onRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/str_qst_three_opt4" />
         </RadioGroup>
@@ -162,14 +149,13 @@
         <RadioGroup
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
             android:orientation="vertical">
 
             <RadioButton
                 android:id="@+id/radio_qst4_opt1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="onRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/str_qst_four_opt1" />
 
@@ -177,7 +163,6 @@
                 android:id="@+id/radio_qst4_opt2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="onRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/str_qst_four_opt2" />
 
@@ -185,7 +170,6 @@
                 android:id="@+id/radio_qst4_opt3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="onRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/str_qst_four_opt3" />
 
@@ -193,8 +177,6 @@
                 android:id="@+id/radio_qst4_opt4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:checked="true"
-                android:onClick="onRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/str_qst_four_opt4" />
         </RadioGroup>
@@ -209,14 +191,13 @@
         <RadioGroup
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
             android:orientation="vertical">
 
             <RadioButton
                 android:id="@+id/radio_qst5_opt1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="onRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/str_qst_five_opt1" />
 
@@ -224,7 +205,6 @@
                 android:id="@+id/radio_qst5_opt2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="onRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/str_qst_five_opt2" />
 
@@ -232,8 +212,6 @@
                 android:id="@+id/radio_qst5_opt3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:checked="true"
-                android:onClick="onRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/str_qst_five_opt3" />
 
@@ -241,7 +219,6 @@
                 android:id="@+id/radio_qst5_opt4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="onRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/str_qst_five_opt4" />
         </RadioGroup>
@@ -254,32 +231,38 @@
             android:textStyle="bold" />
 
         <CheckBox
+            android:id="@+id/chk_qst6_opt1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="8dp"
             android:text="@string/str_qst_six_opt1" />
 
         <CheckBox
+            android:id="@+id/chk_qst6_opt2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="8dp"
             android:text="@string/str_qst_six_opt2" />
 
         <CheckBox
+            android:id="@+id/chk_qst6_opt3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="8dp"
             android:text="@string/str_qst_six_opt3" />
 
         <CheckBox
+            android:id="@+id/chk_qst6_opt4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="8dp"
             android:text="@string/str_qst_six_opt4" />
 
         <CheckBox
+            android:id="@+id/chk_qst6_opt5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="chkAll"
             android:padding="8dp"
             android:text="@string/str_qst_six_opt5" />
 
@@ -287,6 +270,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:onClick="clickSubmit"
             android:text="@string/str_submit" />
     </LinearLayout>
 </ScrollView>
